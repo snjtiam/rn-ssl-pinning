@@ -20,7 +20,7 @@ class SSLPinningClient : OkHttpClientFactory {
         }
 
         val pinner = CertificatePinner.Builder()
-            .add("api.example.com", "sha256/k+swi1D7Mu27FDJ9DAfns27/YipZz5s7BezuYsaXM/s=")
+            .add("jsonplaceholder.typicode.com", "sha256/k+swi1D7Mu27FDJ9DAfns27/YipZz5s7BezuYsaXM/s=")
             .build()
 
         return clientBuilder
